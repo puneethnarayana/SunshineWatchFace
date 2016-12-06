@@ -456,8 +456,8 @@ public class MyWatchFace extends CanvasWatchFaceService {
             String message;
 
             // Constructor to send a message to the data layer
-            SendData(String p) {
-                path = p;
+            SendData(String message) {
+                path = message;
                 message = "updater";
             }
 
